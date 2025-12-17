@@ -1,0 +1,36 @@
+.welcomeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+  position: relative;
+  padding: 68px 100px 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.carImage {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 110px 0px;
+  width: 820px;
+}
+
+.statistics {
+  display: flex;
+  gap: 50px;
+  padding-top: 60px;
+  border-top: 1px solid var(--bg-3);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}

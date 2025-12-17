@@ -1,0 +1,5 @@
+export const LinkArrow = () => (
+  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.21221 0H13.6977V12.4854H12.297V2.39516L0.994515 13.6977L0 12.7037L11.3031 1.40065H1.21221V0Z" fill="black"/>
+  </svg>
+);

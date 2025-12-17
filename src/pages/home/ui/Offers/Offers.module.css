@@ -1,0 +1,39 @@
+.offersBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 80px 145px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.listProducts {
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.offerImage {
+  width: 370px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.price {
+  display: flex;
+  gap: 8px;
+}

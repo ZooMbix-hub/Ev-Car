@@ -1,0 +1,1 @@
+export { Ecology } from './Ecology.tsx';

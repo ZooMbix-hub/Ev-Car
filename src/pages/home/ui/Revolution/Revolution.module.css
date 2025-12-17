@@ -1,0 +1,109 @@
+.revolutionBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: var(--primary);
+  padding: 80px 100px;
+}
+
+.blockTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.455fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "first first second"
+    "three four second"
+    "three five second";
+  gap: 20px;
+}
+
+.first {
+  grid-area: first;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white-transparent-2);
+  padding: 32px;
+}
+
+.first svg {
+  width: 74px;
+  height: 74px;
+}
+
+.second {
+  grid-area: second;
+  display: flex;
+  flex-direction: column;
+
+justify-content: space-between;  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/Revolution-1.png');
+  padding: 70px 32px;
+}
+
+.three {
+  grid-area: three;
+  background-image: url('/images/Revolution-2.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.four {
+  grid-area: four;
+}
+
+.four img {
+  width: 100%;
+}
+
+.five {
+  grid-area: five;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--white-transparent-2);
+  padding: 24px;
+}
+
+.companyLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.second > span {
+  text-transform: uppercase;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.site {
+  width: fit-content;
+  background-color: var(--primary);
+  padding: 6px 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

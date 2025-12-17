@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.textField {
+  font-size: 18px;
+  background-color: var(--bg-2);
+  border: none;
+  padding: 12px;
+}
+
+.textField:focus-within {
+  outline: none;
+}
+
+.textField::placeholder {
+  color: var(--subtext);
+}

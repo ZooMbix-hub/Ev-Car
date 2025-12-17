@@ -1,0 +1,49 @@
+.footer {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4)),
+    url('/images/Footer.png'
+  );
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  backdrop-filter: blur(24px);
+  padding: 50px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 140px);
+  gap: 80px;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.law {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 24px;
+  border-top: 1px solid var(--white-transparent-2);
+  padding-top: 40px;
+}

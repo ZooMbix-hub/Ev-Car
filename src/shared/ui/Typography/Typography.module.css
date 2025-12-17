@@ -1,0 +1,67 @@
+.h1 {
+  font-size: 236px;
+}
+
+.h2 {
+  font-size: 80px;
+}
+
+.h3 {
+  font-size: 60px;
+}
+
+.h4 {
+  font-size: 42px;
+}
+
+.h5 {
+  font-size: 36px;
+}
+
+.paragraph {
+  font-size: 24px;
+}
+
+.caption {
+  font-size: 18px;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semiBold {
+  font-weight: 600;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.subtext {
+  color: var(--subtext);
+}
+
+.bg-1 {
+  color: var(--bg-1);
+}
+
+.bg-2 {
+  color: var(--bg-2);
+}
+
+.bg-3 {
+  color: var(--bg-3);
+}
+
+.wh-trans-1 {
+  color: var(--white-transparent-1);
+}
+
+.wh-trans-2 {
+  color: var(--white-transparent-2);
+}

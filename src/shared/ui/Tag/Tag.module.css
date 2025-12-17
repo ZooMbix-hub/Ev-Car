@@ -1,0 +1,20 @@
+.tag {
+  width: fit-content;
+  padding: 10px 20px;
+}
+
+.light {
+  background-color: var(--bg-2);
+}
+
+.light span {
+  color: var(--primary);
+}
+
+.dark {
+  background-color: var(--white-transparent-2);
+}
+
+.dark span {
+  color: var(--bg-1);
+}

@@ -1,0 +1,68 @@
+.ecologyBlock {
+  padding: 0px 100px 80px;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 36px 0px 60px;
+}
+
+.cardsFeatures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 500px;
+}
+
+.cardFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.player {
+  position: relative;
+}
+
+.player img {
+  width: 100%;
+}
+
+.playerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--secondary);
+  width: 64px;
+  height: 64px;
+}
+
+.cardSecond {
+  display: flex;
+  align-items: flex-end;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/Ecology-2.png');
+  background-size: cover;
+  padding: 24px;
+}
+
+.blurBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid var(--white-transparent-1);
+  backdrop-filter: blur(20px);
+  padding: 30px 24px;
+}

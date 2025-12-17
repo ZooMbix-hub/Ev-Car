@@ -1,0 +1,32 @@
+@import './fonts.css';
+
+:root {
+  font-family: 'Syne', sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #000000;
+  --secondary: #E9FF61;
+  --subtext: #999999;
+  --white-transparent-1: rgba(153, 153, 153, 1);
+  --white-transparent-2: rgba(255, 255, 255, 0.1);
+  --bg-1: #FFFFFF;
+  --bg-2: #EDF2F6;
+  --bg-3: #E9E9E9;
+}
+
+body, ul {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+}
+
+span {
+  white-space: pre-line;
+}

@@ -1,0 +1,28 @@
+.contactsBlock {
+  display: grid;
+  grid-template-columns: 500px auto;
+  gap: 22px;
+  padding: 100px 0px 100px 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contactsForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nameFields {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+.contactsImage {
+  width: 100%;
+}
