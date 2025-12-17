@@ -15,7 +15,7 @@ export const Offers = () => {
       </div>
       <div className={s.listProducts}>
         <div className={s.product}>
-          <img src="/images/Offer-1.png" alt="" className={s.offerImage} />
+          <img src="/Ev-Car/images/Offer-1.png" alt="" className={s.offerImage} />
           <div className={s.desc}>
             <Typography variant={'paragraph'}>
               {'Home Smart Charger'}
@@ -34,7 +34,7 @@ export const Offers = () => {
           </div>
         </div>
         <div className={s.product}>
-          <img src="/images/Offer-2.png" alt="" className={s.offerImage} />
+          <img src="/Ev-Car/images/Offer-2.png" alt="" className={s.offerImage} />
           <div className={s.desc}>
             <Typography variant={'paragraph'}>
               {'Portable EV Charger'}
@@ -53,7 +53,7 @@ export const Offers = () => {
           </div>
         </div>
         <div className={s.product}>
-          <img src="/images/Offer-3.png" alt="" className={s.offerImage} />
+          <img src="/Ev-Car/images/Offer-3.png" alt="" className={s.offerImage} />
           <div className={s.desc}>
             <Typography variant={'paragraph'}>
               {'Ultra-Fast Public Charging Station'}

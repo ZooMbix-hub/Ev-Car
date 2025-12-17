@@ -8,7 +8,7 @@ export const Welcome = () => {
         <Typography variant={'h1'} weight={'semiBold'}>
           {'SMOOTH'}
         </Typography>
-        <img src="/images/Car.png" alt="" className={s.carImage} />
+        <img src="/Ev-Car/images/Car.png" alt="" className={s.carImage} />
         <Typography variant={'h1'} weight={'semiBold'} color={'bg-3'}>
           {'EV CARS'}
         </Typography>
