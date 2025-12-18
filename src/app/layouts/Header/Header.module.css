@@ -6,10 +6,19 @@
   margin: 0px 50px;
   background-color: var(--bg-1);
   border-radius: 10px;
+  position: relative;
 }
 
 .nav {
   display: flex;
   gap: 34px;
   list-style: none;
+}
+
+.navItem {
+  cursor: pointer;
+}
+
+.navItem:hover span {
+  color: var(--subtext);
 }

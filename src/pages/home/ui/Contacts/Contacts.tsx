@@ -34,7 +34,7 @@ export const Contacts = () => {
           </Button>
         </form>
       </div>
-      <img src="/Ev-Car/images/Contacts-1.png" alt="" className={s.contactsImage} />
+      <img src="/Ev-Car/images/Contacts-1.webp" alt="" className={s.contactsImage} />
     </div>
   );
 };

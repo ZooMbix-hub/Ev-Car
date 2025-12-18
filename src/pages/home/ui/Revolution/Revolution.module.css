@@ -44,13 +44,13 @@
 
 justify-content: space-between;  background-image: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/images/Revolution-1.png');
+    url('/images/Revolution-1.webp');
   padding: 70px 32px;
 }
 
 .three {
   grid-area: three;
-  background-image: url('/images/Revolution-2.png');
+  background-image: url('/images/Revolution-2.webp');
   background-size: cover;
   display: flex;
   flex-direction: column;

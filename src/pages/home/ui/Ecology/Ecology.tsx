@@ -21,7 +21,7 @@ export const Ecology = () => {
       <div className={s.cardsFeatures}>
         <div className={s.cardFirst}>
           <div className={s.player}>
-            <img src="/Ev-Car/images/Ecology-1.png" alt="" />
+            <img src="/Ev-Car/images/Ecology-1.webp" alt="" />
             <div className={s.playerButton}>
               <Icon.Play />
             </div>

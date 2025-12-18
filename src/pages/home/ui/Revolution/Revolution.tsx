@@ -53,7 +53,7 @@ export const Revolution = () => {
           </div>
         </div>
         <div className={s.four}>
-          <img src="/Ev-Car/images/Revolution-3.png" alt="" />
+          <img src="/Ev-Car/images/Revolution-3.webp" alt="" />
         </div>
         <div className={s.five}>
           <Icon.Battery />

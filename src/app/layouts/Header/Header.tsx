@@ -8,16 +8,16 @@ export const Header = () => {
     <header className={s.header}>
       <Icon.LogoDark />
       <ul className={s.nav}>
-        <li>
+        <li className={s.navItem}>
           <Typography>{'Home'}</Typography>
         </li>
-        <li>
+        <li className={s.navItem}>
           <Typography>{'Products'}</Typography>
         </li>
-        <li>
+        <li className={s.navItem}>
           <Typography>{'Features'}</Typography>
         </li>
-        <li>
+        <li className={s.navItem}>
           <Typography>{'Gear Shop'}</Typography>
         </li>
       </ul>
